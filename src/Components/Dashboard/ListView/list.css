@@ -1,0 +1,157 @@
+
+
+
+.list-name-sym-div{
+
+    display: flex;
+    align-items: center;
+    
+    gap: 15px;
+    padding: 8px 0 ;
+    /* background-color: rgb(51, 50, 50); */
+    
+}
+.list-first-col{
+    text-align: left;
+}
+
+.list-img-div{
+    width: 45px;
+    height: 45px;
+}
+.list-img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+td{
+    /* background-color: rgb(51, 50, 50); */
+    color: #fff;
+}
+
+.list-sym{
+    text-transform: uppercase;
+    
+}
+
+
+
+.list-percentage-div{
+    /* background-color: palegreen; */
+    width: 120px;
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 3rem;
+    font-weight: 600;
+}
+.list-red-percent{
+    border: 2px solid red;
+    color:red;
+}
+
+.list-red-percent:hover{
+    background-color: red;
+    color: #fff;
+}
+.list-green-percent{
+    border: 2px solid green;
+    color:green
+}
+.list-green-percent:hover{
+    background-color: green;
+    color: #fff;
+}
+
+
+
+.list-cp-div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.list-cp-div h3{
+    width: 150px;
+    
+}
+.red-cp-h3{
+    color: red;
+}
+.green-cp-h3{
+    color: green;
+}
+
+.list-trending{
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-red-trending{
+    border: 2px solid red;
+    color: red;
+}
+.list-red-trending:hover{
+    background-color: red;
+    color: #fff;
+}
+.list-green-trending{
+
+    border: 2px solid green;
+    color: green;
+}
+.list-green-trending:hover{
+    background-color: green;
+    color: #fff;
+}
+
+
+
+
+
+.list-star-div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.list-star-div div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-red-star{
+ 
+    border: 2px solid red;
+    color: red;
+}
+.list-red-star:hover{
+    background-color: red;
+    color: #fff;
+}
+.list-green-star{
+    
+    border: 2px solid green;
+    color: green;
+    
+}
+.list-green-star:hover{
+    
+    background-color:green;
+    color: #fff;
+    
+}
+
+
+.list-tr:hover{
+    background-color: #1B1B1B;
+    
+}

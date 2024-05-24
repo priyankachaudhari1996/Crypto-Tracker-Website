@@ -1,0 +1,39 @@
+
+
+
+.loader-container{
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.loader{
+    width: 45px;
+    height: 45px;
+    border-top: 4px solid black;
+    border-radius: 50%;
+    animation: loading .5s linear  infinite ;
+}
+
+@keyframes loading {
+    
+    0%{
+        border-top-color: blue;
+        transform: rotate(0deg);
+    }
+    50%{
+        border-top-color: yellow;
+    }
+    100%{
+        transform: rotate(360deg);
+        border-top-color: red;
+    }
+}

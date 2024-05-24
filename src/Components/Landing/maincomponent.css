@@ -1,0 +1,278 @@
+.main-component-container{
+    display: flex;
+    /* align-items: center; */
+    min-height: 100vh;
+    /* margin-top: 60px; */
+    /* background-color: greenyellow; */
+    padding: 4rem 2.5rem;
+
+}
+
+.left-side-container{
+    width: 50%;
+    /* background-color: orange; */
+}
+
+
+.track-crypto, .real-time{
+    font-size: 6.6rem;
+    
+}
+.real-time{
+    color: #3F00FF;
+  
+}
+
+.track-crypto:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: #111111;
+    transition: all .5s linear;
+}
+
+.btns{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.right-side-container{
+    width: 50%;
+    /* background-color: pink; */
+    position: relative;
+}
+.phone{
+    position: absolute;
+    right: 2rem;
+    top: -3.6rem;
+    min-width: 350px;
+    width: 30%;
+    z-index: 2;
+}
+.gradient{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    min-width: 250px;
+    width: 40%;
+}
+
+@media screen and (max-width:1200px) {
+    
+    .track-crypto, .real-time{
+        font-size: 4.5rem;
+        
+    }
+    .main-component-container{
+        
+        margin-top: 80px;
+        
+    
+    }
+    .phone{
+        position: absolute;
+        right: 2rem;
+        top: -6rem;
+        min-width: 330px;
+        width: 30%;
+        z-index: 2;
+    }
+}
+@media screen and (max-width:1100px) {
+    
+    .track-crypto, .real-time{
+        font-size: 4rem;
+        
+    }
+    .main-component-container{
+        
+        margin-top: 80px;
+        
+    
+    }
+    .phone{
+        position: absolute;
+        right: 2rem;
+        top: -5.3rem;
+        min-width: 300px;
+        width: 30%;
+        z-index: 2;
+    }
+}
+
+
+@media screen and (max-width:970px) {
+    
+    .track-crypto, .real-time{
+        font-size: 3.5rem;
+        
+    }
+    .phone{
+        position: absolute;
+        right: 0;
+        top: -5rem;
+        min-width: 260px;
+        width: 25%;
+        z-index: 2;
+    }
+
+    .gradient{
+        position: absolute;
+        right: 0;
+        top: 0;
+        min-width: 220px;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    
+    .track-crypto, .real-time{
+        font-size: 3rem;
+        
+    }
+    .gradient{
+        position: absolute;
+        right: 0;
+        top: 0;
+        min-width: 200px;
+        width: 35%;
+    }
+    .phone{
+        position: absolute;
+        right: 0;
+        top: -5rem;
+        min-width: 250px;
+        width: 25%;
+        z-index: 2;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    
+    .main-component-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        /* background-color: greenyellow; */
+        padding: 0 3.5rem;
+    
+    }
+
+    .left-side-container{
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-side-container{
+        width: 100%;
+        margin-top: 30px;
+        /* background-color: pink; */
+        position: relative;
+    }
+    .phone{
+        position: absolute;
+        top: 0;
+        right: 12rem;
+        bottom: -10rem;
+        min-width: 300px;
+        width: 25%;
+        z-index: 2;
+    }
+
+    .gradient{
+        position: absolute;
+        right: 10rem;
+        top:6rem;
+        min-width: 240px;
+        width: 35%;
+    }
+
+    .track-crypto, .real-time{
+        font-size: 5rem;
+        
+    }
+    .btns{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .track-crypto, .real-time{
+        font-size: 4rem;
+        
+    }
+
+    .phone{
+        position: absolute;
+        top: 0;
+        right: 7rem;
+        bottom: -10rem;
+        min-width: 280px;
+        width: 25%;
+        z-index: 2;
+    }
+
+    .gradient{
+        position: absolute;
+        right: 6rem;
+        top:4rem;
+        min-width: 240px;
+        width: 35%;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    
+    .track-crypto, .real-time{
+        font-size: 2.5rem;
+        
+    }
+
+    .phone{
+        position: absolute;
+        top: 0;
+        right: 3rem;
+        bottom: -10rem;
+        min-width: 230px;
+        width: 25%;
+        z-index: 2;
+    }
+
+    .gradient{
+        position: absolute;
+        right: 2rem;
+        top:4rem;
+        min-width: 190px;
+        width: 35%;
+    }
+}
+@media screen and (max-width:400px) {
+    
+    .track-crypto, .real-time{
+        font-size: 2rem;
+        
+    }
+
+    .phone{
+        position: absolute;
+        top: 0;
+        right: 3rem;
+        bottom: -10rem;
+        min-width: 200px;
+        width: 25%;
+        z-index: 2;
+    }
+
+    .gradient{
+        position: absolute;
+        right: 1.5rem;
+        top:4rem;
+        min-width: 170px;
+        width: 35%;
+    }
+}
